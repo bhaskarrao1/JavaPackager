@@ -123,6 +123,13 @@ publishing {
 					developerConnection = 'scm:git:git@github.com:fvarrui/fvarrui.git'
 					url = 'https://github.com/fvarrui/JavaPackager'
 				}
+				maven {
+					url 'https://pkgs.dev.azure.com/b05104936/_packaging/b05104936/maven/v1'
+					name 'b05104936'
+					authentication {
+						basic(BasicAuthentication)
+					}
+				}
 				licenses {
 					license {
 						name = 'GPL-v3.0'
