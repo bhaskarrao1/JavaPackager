@@ -130,6 +130,16 @@ publishing {
 						basic(BasicAuthentication)
 					}
 				}
+				<repository>
+					<id>b05104936</id>
+				<url>https://pkgs.dev.azure.com/b05104936/_packaging/b05104936/maven/v1</url>
+					<releases>
+					<enabled>true</enabled>
+				</releases>
+				<snapshots>
+					<enabled>true</enabled>
+				</snapshots>
+				</repository>
 				licenses {
 					license {
 						name = 'GPL-v3.0'
